@@ -1,0 +1,65 @@
+.container{
+    background-image: url("https://i.ibb.co/vXqDmnh/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    background-blend-mode: multiply;
+    background-color:rgb(149, 149, 149);
+    color: #fff;
+}
+.Front-img{
+    margin-left: 50px;
+    width:200px;
+    height:100px;
+}
+.Front-one{
+    display: flex;
+    height:15vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.Front-select{
+    border-radius: 5px;
+    margin-right: 30px;
+}
+.f-s{
+    background-color: black;
+    width:130px;
+    padding: 5px 5px 5px 50px;
+}
+.Front-two{
+    margin-top: 200px;
+    align-items: center;
+    text-align: center;  
+}
+.Front-three{
+    position: relative;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+.Front-input{
+    width: 400px;
+    padding:19px  15px 10px 17px;
+    background-color: black;
+    border-radius: 5px;
+  }
+.btn-three{
+    background-color: red;
+    border-radius: 5px;
+    margin-left: 15px;
+    width:250px;
+    padding: 9px;
+    font-weight: bolder;
+    font-size:25px;
+}
+.font-label{
+    position: absolute;
+    top:15px;
+    left:30%;
+    color: rgb(184, 182, 182);
+}
+.Front-input:focus+label,.Front-input:not(:placeholder-shown)+label{
+    top:8px;
+    font-size: 11px;
+}
